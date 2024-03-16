@@ -1,0 +1,26 @@
+
+h1{
+    text-align: center;
+    margin-top: 10px auto;
+    color: #25433c;
+}
+
+p{
+    color: #25433c 
+}
+
+/*CSS FlexBox*/
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+    text-align: center;
+}
+
