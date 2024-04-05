@@ -32,9 +32,17 @@ button{
     justify-content: center;
 }
 
-.data{
+.prof{
+    background-color: #e7a2a2;
+    border: 3px solid #ce7070;
+}
+
+.aluno{
     background-color: #fafbf2;
     border: 3px solid #b4b4af;
+}
+
+.data{
     border-radius: 10px;
     width: 80%;
     padding: 5px;
