@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0e6a916873.js" crossorigin="anonymous"></script>
+    <title>Explorando o DOM</title>
+</head>
+<body>
+    <div class="menu">
+        <button class="btn_dropdown" onclick="showMenu()">Menu</button>
+        <ul class="dropdown_content">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Sobre">Sobre</a></li>
+            <li><a href="#Contato">Contato</a></li>
+        </ul>
+    </div>
+
+    <form class="login">
+        <h1>Login</h1>
+        <div class="data">
+            <label for="user">User:</label>
+            <input type="text" id="user">
+            <div class="error user"></div>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+            <div class="error password"></div>
+        </div>
+        <button type="submit" id="btn_submit">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
